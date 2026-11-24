@@ -1,0 +1,15 @@
+{
+  "name": "@red-cup-engineering/tailscale-engineering-services-section",
+  "version": "0.1.2-dev.0",
+  "description": "Tailscale platform services: userspace SOCKS relay and relay-boundary checking.",
+  "type": "module",
+  "exports": {
+    "./verify-colony-execution-boundary": "./scripts/verify-colony-execution-boundary.mjs",
+    "./userspace-socks-relay": "./scripts/userspace-socks-relay.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/tailscale-engineering-services-section.git"
+  },
+  "license": "MIT"
+}
